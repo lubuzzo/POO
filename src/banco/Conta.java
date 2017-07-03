@@ -13,7 +13,7 @@ import java.util.Random;
  * @author sahudy
  */
 public abstract class Conta {
-    private int numero;
+    private final int numero;
     private double saldo;
     private double limite;
     public Cliente titular; // = new Cliente();
@@ -34,7 +34,7 @@ public abstract class Conta {
     
     private int generateNumber() {
         Random r = new Random();
-        return (r.nextInt(10));
+        return (r.nextInt(100000));
     }
 
     public int getNumero() {
