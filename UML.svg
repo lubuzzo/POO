@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="469px" preserveAspectRatio="none" style="width:2278px;height:469px;" version="1.1" viewBox="0 0 2278 469" width="2278px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="fwqcc3qttq9nu" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <!--cluster banco-->
+        <polygon fill="#FFFFFF" filter="url(#fwqcc3qttq9nu)" points="22,24,76,24,83,46.2969,1012,46.2969,1012,231,22,231,22,24" style="stroke: #000000; stroke-width: 2.0;"/>
+        <line style="stroke: #000000; stroke-width: 2.0;" x1="22" x2="83" y1="46.2969" y2="46.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="48" x="26" y="38.9951">banco</text>
+        <!--cluster bancoInterfaciado-->
+        <polygon fill="#FFFFFF" filter="url(#fwqcc3qttq9nu)" points="1176,24,1324,24,1331,46.2969,1650,46.2969,1650,354,1176,354,1176,24" style="stroke: #000000; stroke-width: 2.0;"/>
+        <line style="stroke: #000000; stroke-width: 2.0;" x1="1176" x2="1331" y1="46.2969" y2="46.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="142" x="1180" y="38.9951">bancoInterfaciado</text>
+        <!--cluster funcionarios-->
+        <polygon fill="#FFFFFF" filter="url(#fwqcc3qttq9nu)" points="1674,24,1778,24,1785,46.2969,2271,46.2969,2271,462,1674,462,1674,24" style="stroke: #000000; stroke-width: 2.0;"/>
+        <line style="stroke: #000000; stroke-width: 2.0;" x1="1674" x2="1785" y1="46.2969" y2="46.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="98" x="1678" y="38.9951">funcionarios</text>
+        <!--cluster java.lang-->
+        <polygon fill="#FFFFFF" filter="url(#fwqcc3qttq9nu)" points="1036,132,1111,132,1118,154.2969,1152,154.2969,1152,231,1036,231,1036,132" style="stroke: #000000; stroke-width: 2.0;"/>
+        <line style="stroke: #000000; stroke-width: 2.0;" x1="1036" x2="1118" y1="154.2969" y2="154.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="69" x="1040" y="146.9951">java.lang</text>
+        <!--cluster java.util-->
+        <polygon fill="#FFFFFF" filter="url(#fwqcc3qttq9nu)" points="380,255,446,255,453,277.2969,735,277.2969,735,354,380,354,380,255" style="stroke: #000000; stroke-width: 2.0;"/>
+        <line style="stroke: #000000; stroke-width: 2.0;" x1="380" x2="453" y1="277.2969" y2="277.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="60" x="384" y="269.9951">java.util</text>
+        <!--class banco.Conta-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="69" x="385.5" y="167"/>
+        <ellipse cx="400.5" cy="183" fill="#A9DCDF" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M400.6094,178.3438 L399.4531,183.4219 L401.7813,183.4219 L400.6094,178.3438 Z M399.125,176.1094 L402.1094,176.1094 L405.4688,188.5 L403.0156,188.5 L402.25,185.4375 L398.9688,185.4375 L398.2188,188.5 L395.7813,188.5 L399.125,176.1094 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="37" x="414.5" y="187.1543">Conta</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="386.5" x2="453.5" y1="199" y2="199"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="386.5" x2="453.5" y1="207" y2="207"/>
+        <!--class banco.AtualizadorDeContas-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="162" x="834" y="59"/>
+        <ellipse cx="849" cy="75" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M851.9688,80.6406 Q851.3906,80.9375 850.75,81.0859 Q850.1094,81.2344 849.4063,81.2344 Q846.9063,81.2344 845.5859,79.5859 Q844.2656,77.9375 844.2656,74.8125 Q844.2656,71.6875 845.5859,70.0313 Q846.9063,68.375 849.4063,68.375 Q850.1094,68.375 850.7578,68.5313 Q851.4063,68.6875 851.9688,68.9844 L851.9688,71.7031 Q851.3438,71.125 850.75,70.8516 Q850.1563,70.5781 849.5313,70.5781 Q848.1875,70.5781 847.5,71.6484 Q846.8125,72.7188 846.8125,74.8125 Q846.8125,76.9063 847.5,77.9766 Q848.1875,79.0469 849.5313,79.0469 Q850.1563,79.0469 850.75,78.7734 Q851.3438,78.5 851.9688,77.9219 L851.9688,80.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="130" x="863" y="79.1543">AtualizadorDeContas</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="835" x2="995" y1="91" y2="91"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="835" x2="995" y1="99" y2="99"/>
+        <!--class banco.Banco-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="71" x="521.5" y="59"/>
+        <ellipse cx="536.5" cy="75" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M539.4688,80.6406 Q538.8906,80.9375 538.25,81.0859 Q537.6094,81.2344 536.9063,81.2344 Q534.4063,81.2344 533.0859,79.5859 Q531.7656,77.9375 531.7656,74.8125 Q531.7656,71.6875 533.0859,70.0313 Q534.4063,68.375 536.9063,68.375 Q537.6094,68.375 538.2578,68.5313 Q538.9063,68.6875 539.4688,68.9844 L539.4688,71.7031 Q538.8438,71.125 538.25,70.8516 Q537.6563,70.5781 537.0313,70.5781 Q535.6875,70.5781 535,71.6484 Q534.3125,72.7188 534.3125,74.8125 Q534.3125,76.9063 535,77.9766 Q535.6875,79.0469 537.0313,79.0469 Q537.6563,79.0469 538.25,78.7734 Q538.8438,78.5 539.4688,77.9219 L539.4688,80.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="39" x="550.5" y="79.1543">Banco</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="522.5" x2="591.5" y1="91" y2="91"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="522.5" x2="591.5" y1="99" y2="99"/>
+        <!--class banco.Cliente-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="75" x="627.5" y="59"/>
+        <ellipse cx="642.5" cy="75" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M645.4688,80.6406 Q644.8906,80.9375 644.25,81.0859 Q643.6094,81.2344 642.9063,81.2344 Q640.4063,81.2344 639.0859,79.5859 Q637.7656,77.9375 637.7656,74.8125 Q637.7656,71.6875 639.0859,70.0313 Q640.4063,68.375 642.9063,68.375 Q643.6094,68.375 644.2578,68.5313 Q644.9063,68.6875 645.4688,68.9844 L645.4688,71.7031 Q644.8438,71.125 644.25,70.8516 Q643.6563,70.5781 643.0313,70.5781 Q641.6875,70.5781 641,71.6484 Q640.3125,72.7188 640.3125,74.8125 Q640.3125,76.9063 641,77.9766 Q641.6875,79.0469 643.0313,79.0469 Q643.6563,79.0469 644.25,78.7734 Q644.8438,78.5 645.4688,77.9219 L645.4688,80.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="656.5" y="79.1543">Cliente</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="628.5" x2="701.5" y1="91" y2="91"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="628.5" x2="701.5" y1="99" y2="99"/>
+        <!--class banco.ContaCorrente-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="124" x="195" y="59"/>
+        <ellipse cx="210" cy="75" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M212.9688,80.6406 Q212.3906,80.9375 211.75,81.0859 Q211.1094,81.2344 210.4063,81.2344 Q207.9063,81.2344 206.5859,79.5859 Q205.2656,77.9375 205.2656,74.8125 Q205.2656,71.6875 206.5859,70.0313 Q207.9063,68.375 210.4063,68.375 Q211.1094,68.375 211.7578,68.5313 Q212.4063,68.6875 212.9688,68.9844 L212.9688,71.7031 Q212.3438,71.125 211.75,70.8516 Q211.1563,70.5781 210.5313,70.5781 Q209.1875,70.5781 208.5,71.6484 Q207.8125,72.7188 207.8125,74.8125 Q207.8125,76.9063 208.5,77.9766 Q209.1875,79.0469 210.5313,79.0469 Q211.1563,79.0469 211.75,78.7734 Q212.3438,78.5 212.9688,77.9219 L212.9688,80.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="92" x="224" y="79.1543">ContaCorrente</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="196" x2="318" y1="91" y2="91"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="196" x2="318" y1="99" y2="99"/>
+        <!--class banco.ContaPoupanca-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="132" x="354" y="59"/>
+        <ellipse cx="369" cy="75" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M371.9688,80.6406 Q371.3906,80.9375 370.75,81.0859 Q370.1094,81.2344 369.4063,81.2344 Q366.9063,81.2344 365.5859,79.5859 Q364.2656,77.9375 364.2656,74.8125 Q364.2656,71.6875 365.5859,70.0313 Q366.9063,68.375 369.4063,68.375 Q370.1094,68.375 370.7578,68.5313 Q371.4063,68.6875 371.9688,68.9844 L371.9688,71.7031 Q371.3438,71.125 370.75,70.8516 Q370.1563,70.5781 369.5313,70.5781 Q368.1875,70.5781 367.5,71.6484 Q366.8125,72.7188 366.8125,74.8125 Q366.8125,76.9063 367.5,77.9766 Q368.1875,79.0469 369.5313,79.0469 Q370.1563,79.0469 370.75,78.7734 Q371.3438,78.5 371.9688,77.9219 L371.9688,80.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="100" x="383" y="79.1543">ContaPoupanca</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="355" x2="485" y1="91" y2="91"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="355" x2="485" y1="99" y2="99"/>
+        <!--class banco.SeguroDeVida-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="121" x="38.5" y="59"/>
+        <ellipse cx="53.5" cy="75" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M56.4688,80.6406 Q55.8906,80.9375 55.25,81.0859 Q54.6094,81.2344 53.9063,81.2344 Q51.4063,81.2344 50.0859,79.5859 Q48.7656,77.9375 48.7656,74.8125 Q48.7656,71.6875 50.0859,70.0313 Q51.4063,68.375 53.9063,68.375 Q54.6094,68.375 55.2578,68.5313 Q55.9063,68.6875 56.4688,68.9844 L56.4688,71.7031 Q55.8438,71.125 55.25,70.8516 Q54.6563,70.5781 54.0313,70.5781 Q52.6875,70.5781 52,71.6484 Q51.3125,72.7188 51.3125,74.8125 Q51.3125,76.9063 52,77.9766 Q52.6875,79.0469 54.0313,79.0469 Q54.6563,79.0469 55.25,78.7734 Q55.8438,78.5 56.4688,77.9219 L56.4688,80.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="89" x="67.5" y="79.1543">SeguroDeVida</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="39.5" x2="158.5" y1="91" y2="91"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="39.5" x2="158.5" y1="99" y2="99"/>
+        <!--class banco.main-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="62" x="737" y="59"/>
+        <ellipse cx="752" cy="75" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M754.9688,80.6406 Q754.3906,80.9375 753.75,81.0859 Q753.1094,81.2344 752.4063,81.2344 Q749.9063,81.2344 748.5859,79.5859 Q747.2656,77.9375 747.2656,74.8125 Q747.2656,71.6875 748.5859,70.0313 Q749.9063,68.375 752.4063,68.375 Q753.1094,68.375 753.7578,68.5313 Q754.4063,68.6875 754.9688,68.9844 L754.9688,71.7031 Q754.3438,71.125 753.75,70.8516 Q753.1563,70.5781 752.5313,70.5781 Q751.1875,70.5781 750.5,71.6484 Q749.8125,72.7188 749.8125,74.8125 Q749.8125,76.9063 750.5,77.9766 Q751.1875,79.0469 752.5313,79.0469 Q753.1563,79.0469 753.75,78.7734 Q754.3438,78.5 754.9688,77.9219 L754.9688,80.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="30" x="766" y="79.1543">main</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="738" x2="798" y1="91" y2="91"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="738" x2="798" y1="99" y2="99"/>
+        <!--class banco.Tributavel-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="93" x="131.5" y="167"/>
+        <ellipse cx="146.5" cy="183" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M142.4219,178.7656 L142.4219,176.6094 L149.8125,176.6094 L149.8125,178.7656 L147.3438,178.7656 L147.3438,186.8438 L149.8125,186.8438 L149.8125,189 L142.4219,189 L142.4219,186.8438 L144.8906,186.8438 L144.8906,178.7656 L142.4219,178.7656 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="61" x="160.5" y="187.1543">Tributavel</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="132.5" x2="223.5" y1="199" y2="199"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="132.5" x2="223.5" y1="207" y2="207"/>
+        <!--class bancoInterfaciado.ContaInterfaciada-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="145" x="1277.5" y="167"/>
+        <ellipse cx="1292.5" cy="183" fill="#A9DCDF" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1292.6094,178.3438 L1291.4531,183.4219 L1293.7813,183.4219 L1292.6094,178.3438 Z M1291.125,176.1094 L1294.1094,176.1094 L1297.4688,188.5 L1295.0156,188.5 L1294.25,185.4375 L1290.9688,185.4375 L1290.2188,188.5 L1287.7813,188.5 L1291.125,176.1094 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="113" x="1306.5" y="187.1543">ContaInterfaciada</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1278.5" x2="1421.5" y1="199" y2="199"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1278.5" x2="1421.5" y1="207" y2="207"/>
+        <!--class bancoInterfaciado.ContaCorrenteInterfaciada-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="199" x="1434.5" y="59"/>
+        <ellipse cx="1449.5" cy="75" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1452.4688,80.6406 Q1451.8906,80.9375 1451.25,81.0859 Q1450.6094,81.2344 1449.9063,81.2344 Q1447.4063,81.2344 1446.0859,79.5859 Q1444.7656,77.9375 1444.7656,74.8125 Q1444.7656,71.6875 1446.0859,70.0313 Q1447.4063,68.375 1449.9063,68.375 Q1450.6094,68.375 1451.2578,68.5313 Q1451.9063,68.6875 1452.4688,68.9844 L1452.4688,71.7031 Q1451.8438,71.125 1451.25,70.8516 Q1450.6563,70.5781 1450.0313,70.5781 Q1448.6875,70.5781 1448,71.6484 Q1447.3125,72.7188 1447.3125,74.8125 Q1447.3125,76.9063 1448,77.9766 Q1448.6875,79.0469 1450.0313,79.0469 Q1450.6563,79.0469 1451.25,78.7734 Q1451.8438,78.5 1452.4688,77.9219 L1452.4688,80.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="167" x="1463.5" y="79.1543">ContaCorrenteInterfaciada</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1435.5" x2="1632.5" y1="91" y2="91"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1435.5" x2="1632.5" y1="99" y2="99"/>
+        <!--class bancoInterfaciado.ContaPoupancaInterfaciada-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="207" x="1192.5" y="59"/>
+        <ellipse cx="1207.5" cy="75" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1210.4688,80.6406 Q1209.8906,80.9375 1209.25,81.0859 Q1208.6094,81.2344 1207.9063,81.2344 Q1205.4063,81.2344 1204.0859,79.5859 Q1202.7656,77.9375 1202.7656,74.8125 Q1202.7656,71.6875 1204.0859,70.0313 Q1205.4063,68.375 1207.9063,68.375 Q1208.6094,68.375 1209.2578,68.5313 Q1209.9063,68.6875 1210.4688,68.9844 L1210.4688,71.7031 Q1209.8438,71.125 1209.25,70.8516 Q1208.6563,70.5781 1208.0313,70.5781 Q1206.6875,70.5781 1206,71.6484 Q1205.3125,72.7188 1205.3125,74.8125 Q1205.3125,76.9063 1206,77.9766 Q1206.6875,79.0469 1208.0313,79.0469 Q1208.6563,79.0469 1209.25,78.7734 Q1209.8438,78.5 1210.4688,77.9219 L1210.4688,80.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="175" x="1221.5" y="79.1543">ContaPoupancaInterfaciada</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1193.5" x2="1398.5" y1="91" y2="91"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1193.5" x2="1398.5" y1="99" y2="99"/>
+        <!--class bancoInterfaciado.ContaTributavel-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="130" x="1469" y="167"/>
+        <ellipse cx="1484" cy="183" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1479.9219,178.7656 L1479.9219,176.6094 L1487.3125,176.6094 L1487.3125,178.7656 L1484.8438,178.7656 L1484.8438,186.8438 L1487.3125,186.8438 L1487.3125,189 L1479.9219,189 L1479.9219,186.8438 L1482.3906,186.8438 L1482.3906,178.7656 L1479.9219,178.7656 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="98" x="1498" y="187.1543">ContaTributavel</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1470" x2="1598" y1="199" y2="199"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1470" x2="1598" y1="207" y2="207"/>
+        <!--class bancoInterfaciado.TributavelInterfaciado-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="169" x="1457.5" y="290"/>
+        <ellipse cx="1472.5" cy="306" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1468.4219,301.7656 L1468.4219,299.6094 L1475.8125,299.6094 L1475.8125,301.7656 L1473.3438,301.7656 L1473.3438,309.8438 L1475.8125,309.8438 L1475.8125,312 L1468.4219,312 L1468.4219,309.8438 L1470.8906,309.8438 L1470.8906,301.7656 L1468.4219,301.7656 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="137" x="1486.5" y="310.1543">TributavelInterfaciado</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1458.5" x2="1625.5" y1="322" y2="322"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1458.5" x2="1625.5" y1="330" y2="330"/>
+        <!--class bancoInterfaciado.contaInterfaciada-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="144" x="1278" y="290"/>
+        <ellipse cx="1293" cy="306" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1288.9219,301.7656 L1288.9219,299.6094 L1296.3125,299.6094 L1296.3125,301.7656 L1293.8438,301.7656 L1293.8438,309.8438 L1296.3125,309.8438 L1296.3125,312 L1288.9219,312 L1288.9219,309.8438 L1291.3906,309.8438 L1291.3906,301.7656 L1288.9219,301.7656 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="112" x="1307" y="310.1543">contaInterfaciada</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1279" x2="1421" y1="322" y2="322"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1279" x2="1421" y1="330" y2="330"/>
+        <!--class funcionarios.Funcionario-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="105" x="1968.5" y="398"/>
+        <ellipse cx="1983.5" cy="414" fill="#A9DCDF" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1983.6094,409.3438 L1982.4531,414.4219 L1984.7813,414.4219 L1983.6094,409.3438 Z M1982.125,407.1094 L1985.1094,407.1094 L1988.4688,419.5 L1986.0156,419.5 L1985.25,416.4375 L1981.9688,416.4375 L1981.2188,419.5 L1978.7813,419.5 L1982.125,407.1094 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="73" x="1997.5" y="418.1543">Funcionario</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1969.5" x2="2072.5" y1="430" y2="430"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1969.5" x2="2072.5" y1="438" y2="438"/>
+        <!--class funcionarios.FuncionarioAutenticavel-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="182" x="1843" y="290"/>
+        <ellipse cx="1858" cy="306" fill="#A9DCDF" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1858.1094,301.3438 L1856.9531,306.4219 L1859.2813,306.4219 L1858.1094,301.3438 Z M1856.625,299.1094 L1859.6094,299.1094 L1862.9688,311.5 L1860.5156,311.5 L1859.75,308.4375 L1856.4688,308.4375 L1855.7188,311.5 L1853.2813,311.5 L1856.625,299.1094 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="150" x="1872" y="310.1543">FuncionarioAutenticavel</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1844" x2="2024" y1="322" y2="322"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1844" x2="2024" y1="330" y2="330"/>
+        <!--class funcionarios.Secretario-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="97" x="2060.5" y="290"/>
+        <ellipse cx="2075.5" cy="306" fill="#A9DCDF" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2075.6094,301.3438 L2074.4531,306.4219 L2076.7813,306.4219 L2075.6094,301.3438 Z M2074.125,299.1094 L2077.1094,299.1094 L2080.4688,311.5 L2078.0156,311.5 L2077.25,308.4375 L2073.9688,308.4375 L2073.2188,311.5 L2070.7813,311.5 L2074.125,299.1094 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="2089.5" y="310.1543">Secretario</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2061.5" x2="2156.5" y1="322" y2="322"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2061.5" x2="2156.5" y1="330" y2="330"/>
+        <!--class funcionarios.ControledeBonificacoes-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="180" x="2075" y="59"/>
+        <ellipse cx="2090" cy="75" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2092.9688,80.6406 Q2092.3906,80.9375 2091.75,81.0859 Q2091.1094,81.2344 2090.4063,81.2344 Q2087.9063,81.2344 2086.5859,79.5859 Q2085.2656,77.9375 2085.2656,74.8125 Q2085.2656,71.6875 2086.5859,70.0313 Q2087.9063,68.375 2090.4063,68.375 Q2091.1094,68.375 2091.7578,68.5313 Q2092.4063,68.6875 2092.9688,68.9844 L2092.9688,71.7031 Q2092.3438,71.125 2091.75,70.8516 Q2091.1563,70.5781 2090.5313,70.5781 Q2089.1875,70.5781 2088.5,71.6484 Q2087.8125,72.7188 2087.8125,74.8125 Q2087.8125,76.9063 2088.5,77.9766 Q2089.1875,79.0469 2090.5313,79.0469 Q2091.1563,79.0469 2091.75,78.7734 Q2092.3438,78.5 2092.9688,77.9219 L2092.9688,80.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="148" x="2104" y="79.1543">ControledeBonificacoes</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2076" x2="2254" y1="91" y2="91"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2076" x2="2254" y1="99" y2="99"/>
+        <!--class funcionarios.Diretor-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="75" x="1964.5" y="59"/>
+        <ellipse cx="1979.5" cy="75" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1982.4688,80.6406 Q1981.8906,80.9375 1981.25,81.0859 Q1980.6094,81.2344 1979.9063,81.2344 Q1977.4063,81.2344 1976.0859,79.5859 Q1974.7656,77.9375 1974.7656,74.8125 Q1974.7656,71.6875 1976.0859,70.0313 Q1977.4063,68.375 1979.9063,68.375 Q1980.6094,68.375 1981.2578,68.5313 Q1981.9063,68.6875 1982.4688,68.9844 L1982.4688,71.7031 Q1981.8438,71.125 1981.25,70.8516 Q1980.6563,70.5781 1980.0313,70.5781 Q1978.6875,70.5781 1978,71.6484 Q1977.3125,72.7188 1977.3125,74.8125 Q1977.3125,76.9063 1978,77.9766 Q1978.6875,79.0469 1980.0313,79.0469 Q1980.6563,79.0469 1981.25,78.7734 Q1981.8438,78.5 1982.4688,77.9219 L1982.4688,80.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="1993.5" y="79.1543">Diretor</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1965.5" x2="2038.5" y1="91" y2="91"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1965.5" x2="2038.5" y1="99" y2="99"/>
+        <!--class funcionarios.Engenheiro-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="104" x="1825" y="59"/>
+        <ellipse cx="1840" cy="75" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1842.9688,80.6406 Q1842.3906,80.9375 1841.75,81.0859 Q1841.1094,81.2344 1840.4063,81.2344 Q1837.9063,81.2344 1836.5859,79.5859 Q1835.2656,77.9375 1835.2656,74.8125 Q1835.2656,71.6875 1836.5859,70.0313 Q1837.9063,68.375 1840.4063,68.375 Q1841.1094,68.375 1841.7578,68.5313 Q1842.4063,68.6875 1842.9688,68.9844 L1842.9688,71.7031 Q1842.3438,71.125 1841.75,70.8516 Q1841.1563,70.5781 1840.5313,70.5781 Q1839.1875,70.5781 1838.5,71.6484 Q1837.8125,72.7188 1837.8125,74.8125 Q1837.8125,76.9063 1838.5,77.9766 Q1839.1875,79.0469 1840.5313,79.0469 Q1841.1563,79.0469 1841.75,78.7734 Q1842.3438,78.5 1842.9688,77.9219 L1842.9688,80.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="72" x="1854" y="79.1543">Engenheiro</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1826" x2="1928" y1="91" y2="91"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1826" x2="1928" y1="99" y2="99"/>
+        <!--class funcionarios.Gerente-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="83" x="1727.5" y="167"/>
+        <ellipse cx="1742.5" cy="183" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1745.4688,188.6406 Q1744.8906,188.9375 1744.25,189.0859 Q1743.6094,189.2344 1742.9063,189.2344 Q1740.4063,189.2344 1739.0859,187.5859 Q1737.7656,185.9375 1737.7656,182.8125 Q1737.7656,179.6875 1739.0859,178.0313 Q1740.4063,176.375 1742.9063,176.375 Q1743.6094,176.375 1744.2578,176.5313 Q1744.9063,176.6875 1745.4688,176.9844 L1745.4688,179.7031 Q1744.8438,179.125 1744.25,178.8516 Q1743.6563,178.5781 1743.0313,178.5781 Q1741.6875,178.5781 1741,179.6484 Q1740.3125,180.7188 1740.3125,182.8125 Q1740.3125,184.9063 1741,185.9766 Q1741.6875,187.0469 1743.0313,187.0469 Q1743.6563,187.0469 1744.25,186.7734 Q1744.8438,186.5 1745.4688,185.9219 L1745.4688,188.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="51" x="1756.5" y="187.1543">Gerente</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1728.5" x2="1809.5" y1="199" y2="199"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1728.5" x2="1809.5" y1="207" y2="207"/>
+        <!--class funcionarios.Presidente-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="100" x="1690" y="59"/>
+        <ellipse cx="1705" cy="75" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1707.9688,80.6406 Q1707.3906,80.9375 1706.75,81.0859 Q1706.1094,81.2344 1705.4063,81.2344 Q1702.9063,81.2344 1701.5859,79.5859 Q1700.2656,77.9375 1700.2656,74.8125 Q1700.2656,71.6875 1701.5859,70.0313 Q1702.9063,68.375 1705.4063,68.375 Q1706.1094,68.375 1706.7578,68.5313 Q1707.4063,68.6875 1707.9688,68.9844 L1707.9688,71.7031 Q1707.3438,71.125 1706.75,70.8516 Q1706.1563,70.5781 1705.5313,70.5781 Q1704.1875,70.5781 1703.5,71.6484 Q1702.8125,72.7188 1702.8125,74.8125 Q1702.8125,76.9063 1703.5,77.9766 Q1704.1875,79.0469 1705.5313,79.0469 Q1706.1563,79.0469 1706.75,78.7734 Q1707.3438,78.5 1707.9688,77.9219 L1707.9688,80.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="68" x="1719" y="79.1543">Presidente</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1691" x2="1789" y1="91" y2="91"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1691" x2="1789" y1="99" y2="99"/>
+        <!--class funcionarios.SecretarioAdministrativo-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="185" x="1878.5" y="167"/>
+        <ellipse cx="1893.5" cy="183" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1896.4688,188.6406 Q1895.8906,188.9375 1895.25,189.0859 Q1894.6094,189.2344 1893.9063,189.2344 Q1891.4063,189.2344 1890.0859,187.5859 Q1888.7656,185.9375 1888.7656,182.8125 Q1888.7656,179.6875 1890.0859,178.0313 Q1891.4063,176.375 1893.9063,176.375 Q1894.6094,176.375 1895.2578,176.5313 Q1895.9063,176.6875 1896.4688,176.9844 L1896.4688,179.7031 Q1895.8438,179.125 1895.25,178.8516 Q1894.6563,178.5781 1894.0313,178.5781 Q1892.6875,178.5781 1892,179.6484 Q1891.3125,180.7188 1891.3125,182.8125 Q1891.3125,184.9063 1892,185.9766 Q1892.6875,187.0469 1894.0313,187.0469 Q1894.6563,187.0469 1895.25,186.7734 Q1895.8438,186.5 1896.4688,185.9219 L1896.4688,188.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="153" x="1907.5" y="187.1543">SecretarioAdministrativo</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1879.5" x2="2062.5" y1="199" y2="199"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1879.5" x2="2062.5" y1="207" y2="207"/>
+        <!--class funcionarios.SecretarioAgencia-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="147" x="2098.5" y="167"/>
+        <ellipse cx="2113.5" cy="183" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2116.4688,188.6406 Q2115.8906,188.9375 2115.25,189.0859 Q2114.6094,189.2344 2113.9063,189.2344 Q2111.4063,189.2344 2110.0859,187.5859 Q2108.7656,185.9375 2108.7656,182.8125 Q2108.7656,179.6875 2110.0859,178.0313 Q2111.4063,176.375 2113.9063,176.375 Q2114.6094,176.375 2115.2578,176.5313 Q2115.9063,176.6875 2116.4688,176.9844 L2116.4688,179.7031 Q2115.8438,179.125 2115.25,178.8516 Q2114.6563,178.5781 2114.0313,178.5781 Q2112.6875,178.5781 2112,179.6484 Q2111.3125,180.7188 2111.3125,182.8125 Q2111.3125,184.9063 2112,185.9766 Q2112.6875,187.0469 2114.0313,187.0469 Q2114.6563,187.0469 2115.25,186.7734 Q2115.8438,186.5 2116.4688,185.9219 L2116.4688,188.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="115" x="2127.5" y="187.1543">SecretarioAgencia</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2099.5" x2="2244.5" y1="199" y2="199"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2099.5" x2="2244.5" y1="207" y2="207"/>
+        <!--class funcionarios.Autenticavel-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="109" x="1698.5" y="290"/>
+        <ellipse cx="1713.5" cy="306" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1709.4219,301.7656 L1709.4219,299.6094 L1716.8125,299.6094 L1716.8125,301.7656 L1714.3438,301.7656 L1714.3438,309.8438 L1716.8125,309.8438 L1716.8125,312 L1709.4219,312 L1709.4219,309.8438 L1711.8906,309.8438 L1711.8906,301.7656 L1709.4219,301.7656 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="1727.5" y="310.1543">Autenticavel</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1699.5" x2="1806.5" y1="322" y2="322"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1699.5" x2="1806.5" y1="330" y2="330"/>
+        <!--class java.lang.Override-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="84" x="1052" y="167"/>
+        <ellipse cx="1067" cy="183" fill="#E3664A" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1069.0781,183.4688 Q1069.0781,182.5313 1068.6563,182 Q1068.2344,181.4688 1067.4844,181.4688 Q1066.75,181.4688 1066.3359,182 Q1065.9219,182.5313 1065.9219,183.4688 Q1065.9219,184.4219 1066.3359,184.9531 Q1066.75,185.4844 1067.4844,185.4844 Q1068.2344,185.4844 1068.6563,184.9531 Q1069.0781,184.4219 1069.0781,183.4688 Z M1070.625,186.875 L1069,186.875 L1069,186.2031 Q1068.6719,186.6406 1068.25,186.8438 Q1067.8281,187.0469 1067.2188,187.0469 Q1065.8594,187.0469 1065.0313,186.0703 Q1064.2031,185.0938 1064.2031,183.4688 Q1064.2031,181.875 1065.0313,180.8984 Q1065.8594,179.9219 1067.2188,179.9219 Q1067.8125,179.9219 1068.2656,180.125 Q1068.7188,180.3281 1069,180.7188 L1069,180.375 Q1069,179.25 1068.375,178.6328 Q1067.75,178.0156 1066.6094,178.0156 Q1064.8906,178.0156 1063.7969,179.5391 Q1062.7031,181.0625 1062.7031,183.5 Q1062.7031,186.0469 1063.9609,187.5469 Q1065.2188,189.0469 1067.3281,189.0469 Q1067.9844,189.0469 1068.6094,188.8594 Q1069.2344,188.6719 1069.8125,188.2813 L1070.5781,189.7344 Q1069.9063,190.1875 1069.1094,190.4141 Q1068.3125,190.6406 1067.4063,190.6406 Q1064.5,190.6406 1062.7734,188.7109 Q1061.0469,186.7813 1061.0469,183.5 Q1061.0469,180.2813 1062.6016,178.3516 Q1064.1563,176.4219 1066.7188,176.4219 Q1068.5156,176.4219 1069.5703,177.5156 Q1070.625,178.6094 1070.625,180.4844 L1070.625,186.875 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="52" x="1081" y="187.1543">Override</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1053" x2="1135" y1="199" y2="199"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1053" x2="1135" y1="207" y2="207"/>
+        <!--class java.util.ArrayList-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="85" x="514.5" y="290"/>
+        <ellipse cx="529.5" cy="306" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M532.4688,311.6406 Q531.8906,311.9375 531.25,312.0859 Q530.6094,312.2344 529.9063,312.2344 Q527.4063,312.2344 526.0859,310.5859 Q524.7656,308.9375 524.7656,305.8125 Q524.7656,302.6875 526.0859,301.0313 Q527.4063,299.375 529.9063,299.375 Q530.6094,299.375 531.2578,299.5313 Q531.9063,299.6875 532.4688,299.9844 L532.4688,302.7031 Q531.8438,302.125 531.25,301.8516 Q530.6563,301.5781 530.0313,301.5781 Q528.6875,301.5781 528,302.6484 Q527.3125,303.7188 527.3125,305.8125 Q527.3125,307.9063 528,308.9766 Q528.6875,310.0469 530.0313,310.0469 Q530.6563,310.0469 531.25,309.7734 Q531.8438,309.5 532.4688,308.9219 L532.4688,311.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="53" x="543.5" y="310.1543">ArrayList</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="515.5" x2="598.5" y1="322" y2="322"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="515.5" x2="598.5" y1="330" y2="330"/>
+        <!--class java.util.Random-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="83" x="396.5" y="290"/>
+        <ellipse cx="411.5" cy="306" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M414.4688,311.6406 Q413.8906,311.9375 413.25,312.0859 Q412.6094,312.2344 411.9063,312.2344 Q409.4063,312.2344 408.0859,310.5859 Q406.7656,308.9375 406.7656,305.8125 Q406.7656,302.6875 408.0859,301.0313 Q409.4063,299.375 411.9063,299.375 Q412.6094,299.375 413.2578,299.5313 Q413.9063,299.6875 414.4688,299.9844 L414.4688,302.7031 Q413.8438,302.125 413.25,301.8516 Q412.6563,301.5781 412.0313,301.5781 Q410.6875,301.5781 410,302.6484 Q409.3125,303.7188 409.3125,305.8125 Q409.3125,307.9063 410,308.9766 Q410.6875,310.0469 412.0313,310.0469 Q412.6563,310.0469 413.25,309.7734 Q413.8438,309.5 414.4688,308.9219 L414.4688,311.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="51" x="425.5" y="310.1543">Random</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="397.5" x2="478.5" y1="322" y2="322"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="397.5" x2="478.5" y1="330" y2="330"/>
+        <!--class java.util.Scanner-->
+        <rect fill="#FEFECE" filter="url(#fwqcc3qttq9nu)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="84" x="635" y="290"/>
+        <ellipse cx="650" cy="306" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M652.9688,311.6406 Q652.3906,311.9375 651.75,312.0859 Q651.1094,312.2344 650.4063,312.2344 Q647.9063,312.2344 646.5859,310.5859 Q645.2656,308.9375 645.2656,305.8125 Q645.2656,302.6875 646.5859,301.0313 Q647.9063,299.375 650.4063,299.375 Q651.1094,299.375 651.7578,299.5313 Q652.4063,299.6875 652.9688,299.9844 L652.9688,302.7031 Q652.3438,302.125 651.75,301.8516 Q651.1563,301.5781 650.5313,301.5781 Q649.1875,301.5781 648.5,302.6484 Q647.8125,303.7188 647.8125,305.8125 Q647.8125,307.9063 648.5,308.9766 Q649.1875,310.0469 650.5313,310.0469 Q651.1563,310.0469 651.75,309.7734 Q652.3438,309.5 652.9688,308.9219 L652.9688,311.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="52" x="664" y="310.1543">Scanner</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="636" x2="718" y1="322" y2="322"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="636" x2="718" y1="330" y2="330"/>
+        <path d="M423.428,215.044 C426.374,234.85 430.634,263.484 433.788,284.683 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036" points="434.523,289.63,437.1552,280.1394,433.7873,284.6844,429.2423,281.3165,434.523,289.63" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1350,215.044 C1350,230.42 1350,251.119 1350,269.527 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1357,269.63,1350,289.63,1343,269.63,1357,269.63" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1952.88,338 C1963.41,350.83 1976.81,367.157 1988.93,381.9292 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1994.58,377.778,2001.86,397.6784,1983.76,386.6598,1994.58,377.778" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2089.91,338 C2079.25,350.83 2065.7,367.157 2053.44,381.9292 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="2058.52,386.7615,2040.36,397.6784,2047.75,377.819,2058.52,386.7615" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M557,107.218 C557,149.48 557,238.825 557,284.625 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036" points="557,289.721,561,280.721,557,284.721,553,280.721,557,289.721" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M292.369,107 C314.52,121.406 343.45,140.219 368.166,156.292 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="372.31,150.637,385.26,167.409,364.678,162.373,372.31,150.637" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M319.192,103.717 C324.834,105.015 330.495,106.144 336,107 C410.243,118.542 941.457,98.136 1012,124 C1033.99,132.061 1054.51,148.588 1069.52,163.087 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036" points="1073.22,166.723,1069.601,157.5632,1069.6524,163.2198,1063.9958,163.2713,1073.22,166.723" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M239.858,107 C230.399,119.692 218.39,135.806 207.474,150.452 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="212.945,154.825,195.381,166.678,201.72,146.459,212.945,154.825" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M420,107 C420,118.588 420,133.029 420,146.601 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="427,146.678,420,166.678,413,146.678,427,146.678" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M486.178,103.657 C492.166,104.969 498.17,106.117 504,107 C559.839,115.46 959.057,104.339 1012,124 C1033.95,132.152 1054.47,148.68 1069.5,163.155 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036" points="1073.19,166.785,1069.5655,157.6273,1069.6203,163.2839,1063.9637,163.3388,1073.19,166.785" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M159.534,103.546 C165.391,104.923 171.28,106.115 177,107 C268.705,121.193 924.798,92.264 1012,124 C1034.01,132.008 1054.53,148.536 1069.54,163.047 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036" points="1073.23,166.687,1069.6315,157.5191,1069.6703,163.1758,1064.0136,163.2146,1073.23,166.687" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M116.142,107 C125.601,119.692 137.61,135.806 148.526,150.452 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="154.28,146.459,160.619,166.678,143.055,154.825,154.28,146.459" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M758.774,107.218 C741.945,149.566 706.331,239.188 688.165,284.903 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036" points="686.251,289.721,693.2906,282.8331,688.0966,285.0741,685.8556,279.8801,686.251,289.721" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1483.43,107.082 C1472.59,112.384 1461.31,118.181 1451,124 C1433.95,133.628 1415.88,145.028 1399.81,155.62 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1403.5,161.571,1382.99,166.886,1395.71,149.939,1403.5,161.571" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1434.25,104.466 C1428.42,105.394 1422.64,106.249 1417,107 C1363.78,114.08 1225.98,104.382 1176,124 C1154.36,132.495 1133.98,148.846 1118.95,163.147 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036" points="1115.24,166.733,1124.4911,163.3541,1118.8351,163.258,1118.9312,157.602,1115.24,166.733" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1534,107 C1534,118.588 1534,133.029 1534,146.601 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1541,146.678,1534,166.678,1527,146.678,1541,146.678" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1307.72,107 C1313.9,119.14 1321.68,134.411 1328.88,148.534 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1335.28,145.68,1338.12,166.678,1322.8,152.035,1335.28,145.68" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1213.66,107.096 C1200.73,111.95 1187.76,117.581 1176,124 C1156.33,134.737 1136.7,150.329 1121.57,163.662 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036" points="1117.82,166.999,1127.1994,163.9947,1121.5518,163.6713,1121.8752,158.0237,1117.82,166.999" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1964.4,100.593 C1958.32,102.942 1952.04,105.175 1946,107 C1909.12,118.148 1896.34,108.649 1861,124 C1843.32,131.683 1825.68,143.167 1810.65,154.412 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1814.96,159.922,1794.92,166.791,1806.3,148.921,1814.96,159.922" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1800.42,215.044 C1824.66,232.817 1858.59,257.7 1886.19,277.94 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1890.42,272.364,1902.41,289.836,1882.15,283.654,1890.42,272.364" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1765.95,215.044 C1763.92,230.42 1761.18,251.119 1758.75,269.527 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1765.65,270.72,1756.09,289.63,1751.77,268.885,1765.65,270.72" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1689.93,98.82 C1677.03,102.078 1663.09,105.115 1650,107 C1597.84,114.512 1225.38,105.594 1176,124 C1154.06,132.179 1133.54,148.706 1118.51,163.175 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036" points="1114.81,166.803,1124.0369,163.3586,1118.3804,163.3026,1118.4364,157.6461,1114.81,166.803" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1746.29,107 C1749.5,118.726 1753.51,133.374 1757.26,147.086 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1764.09,145.54,1762.62,166.678,1750.59,149.235,1764.09,145.54" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2002.39,215.046 C2014.98,224.608 2029.44,236.018 2042,247 C2052.16,255.887 2062.75,265.919 2072.43,275.428 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="2077.51,270.609,2086.7,289.703,2067.61,280.505,2077.51,270.609" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2160,215.044 C2151.69,231.005 2140.4,252.701 2130.55,271.618 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="2136.61,275.123,2121.17,289.63,2124.2,268.657,2136.61,275.123" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1535.52,215.044 C1536.54,230.42 1537.91,251.119 1539.13,269.527 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1546.12,269.211,1540.45,289.63,1532.15,270.135,1546.12,269.211" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1492.26,215.189 C1475.75,224.678 1456.75,235.998 1440,247 C1425.38,256.603 1409.87,267.642 1395.93,277.91 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="1400.07,283.551,1379.86,289.903,1391.7,272.331,1400.07,283.551" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <!--
+@startuml
+abstract class banco.Conta
+abstract class bancoInterfaciado.ContaInterfaciada
+abstract class funcionarios.Funcionario
+abstract class funcionarios.FuncionarioAutenticavel
+abstract class funcionarios.Secretario
+annotation java.lang.Override
+class banco.AtualizadorDeContas
+class banco.Banco
+class banco.Cliente
+class banco.ContaCorrente
+class banco.ContaPoupanca
+class banco.SeguroDeVida
+class banco.main
+class bancoInterfaciado.ContaCorrenteInterfaciada
+class bancoInterfaciado.ContaPoupancaInterfaciada
+class funcionarios.ControledeBonificacoes
+class funcionarios.Diretor
+class funcionarios.Engenheiro
+class funcionarios.Gerente
+class funcionarios.Presidente
+class funcionarios.SecretarioAdministrativo
+class funcionarios.SecretarioAgencia
+class java.util.ArrayList
+class java.util.Random
+class java.util.Scanner
+interface banco.Tributavel
+interface bancoInterfaciado.ContaTributavel
+interface bancoInterfaciado.TributavelInterfaciado
+interface bancoInterfaciado.contaInterfaciada
+interface funcionarios.Autenticavel
+banco.Conta ..> java.util.Random
+bancoInterfaciado.ContaInterfaciada - -|> bancoInterfaciado.contaInterfaciada
+funcionarios.FuncionarioAutenticavel - -|> funcionarios.Funcionario
+funcionarios.Secretario - -|> funcionarios.Funcionario
+banco.Banco ..> java.util.ArrayList
+banco.ContaCorrente - -|> banco.Conta
+banco.ContaCorrente ..> java.lang.Override
+banco.ContaCorrente - -|> banco.Tributavel
+banco.ContaPoupanca - -|> banco.Conta
+banco.ContaPoupanca ..> java.lang.Override
+banco.SeguroDeVida ..> java.lang.Override
+banco.SeguroDeVida - -|> banco.Tributavel
+banco.main ..> java.util.Scanner
+bancoInterfaciado.ContaCorrenteInterfaciada - -|> bancoInterfaciado.ContaInterfaciada
+bancoInterfaciado.ContaCorrenteInterfaciada ..> java.lang.Override
+bancoInterfaciado.ContaCorrenteInterfaciada - -|> bancoInterfaciado.ContaTributavel
+bancoInterfaciado.ContaPoupancaInterfaciada - -|> bancoInterfaciado.ContaInterfaciada
+bancoInterfaciado.ContaPoupancaInterfaciada ..> java.lang.Override
+funcionarios.Diretor - -|> funcionarios.Gerente
+funcionarios.Gerente - -|> funcionarios.FuncionarioAutenticavel
+funcionarios.Gerente - -|> funcionarios.Autenticavel
+funcionarios.Presidente ..> java.lang.Override
+funcionarios.Presidente - -|> funcionarios.Gerente
+funcionarios.SecretarioAdministrativo - -|> funcionarios.Secretario
+funcionarios.SecretarioAgencia - -|> funcionarios.Secretario
+bancoInterfaciado.ContaTributavel - -|> bancoInterfaciado.TributavelInterfaciado
+bancoInterfaciado.ContaTributavel - -|> bancoInterfaciado.contaInterfaciada
+@enduml
+
+PlantUML version 2017.11(Wed Apr 19 13:18:59 BRT 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_131-b11
+Operating System: Linux
+OS Version: 4.8.0-58-generic
+Default Encoding: UTF-8
+Language: pt
+Country: BR
+-->
+    </g>
+</svg>
