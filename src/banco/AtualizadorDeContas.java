@@ -28,8 +28,8 @@ public class AtualizadorDeContas {
     
     public void atualizarTodas(Banco b) {
        int count = 0;
-       for (; count < b.contas.length; count++) {
-           roda(b.contas[count]);
+       for (; count < b.contas.size(); count++) {
+           roda(b.contas.get(count));
        }
     }
     
