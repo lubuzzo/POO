@@ -1,6 +1,7 @@
 
+import funcionarios.Diretor;
 import funcionarios.Funcionario;
-import funcionarios.Presidente;
+import funcionarios.Gerente;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -12,16 +13,17 @@ import funcionarios.Presidente;
  *
  * @author buzzo
  */
-public class TestaPresidente {
+public class TestaDiretor {
     public static void main(String[] args) {
-        Presidente presidente = new Presidente();
-        Funcionario funcionario = presidente;
+        Diretor diretor = new Diretor();
+        Funcionario funcionario = diretor;
         
-        presidente.setNome("Presidiário João da Silva");
-        presidente.setSenha(1234);
+        diretor.setNome("Diretor João da Silva");
+        diretor.setSenha(1234);
         funcionario.setSalario(5000.0);
         
         System.out.println("Bonificacao do Funcionário: " + funcionario.getBonificacao());
-        System.out.println("Bonificacao do Presidente: " + presidente.getBonificacao());
-    }    
+        System.out.println("Bonificacao do Diretor: " + diretor.getBonificacao());
+    }
+    
 }

@@ -12,11 +12,13 @@ import java.util.Random;
  *
  * @author sahudy
  */
-public class Conta {
+public abstract class Conta {
     private int numero;
     private double saldo;
     private double limite;
     public Cliente titular; // = new Cliente();
+    
+    public abstract double atualizaTaxa (double taxa);
 
     public String getTitular() {
         return titular.getNome();
@@ -82,10 +84,4 @@ public class Conta {
     public double getSaldo() {
         return this.saldo;
     }
-
-    public double atualizaTaxa (double taxa) {
-        setSaldo(getSaldo() * 1 + (taxa));
-        return getSaldo();
-    }
-    
 }

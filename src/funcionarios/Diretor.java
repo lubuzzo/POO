@@ -9,6 +9,6 @@ package funcionarios;
  *
  * @author buzzo
  */
-public abstract class Secretario extends Funcionario {
+public class Diretor extends Gerente {
     
 }

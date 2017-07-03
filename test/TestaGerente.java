@@ -22,6 +22,6 @@ public class TestaGerente {
         funcionario.setSalario(5000.0);
         
         System.out.println("Bonificacao do Funcionário: " + funcionario.getBonificacao());
-        System.out.println("Bonificacao do Funcionário: " + gerente.getBonificacao());
+        System.out.println("Bonificacao do Gerente: " + gerente.getBonificacao());
     }
 }

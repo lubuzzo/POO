@@ -9,6 +9,10 @@ package funcionarios;
  *
  * @author buzzo
  */
-public abstract class Secretario extends Funcionario {
+public class SecretarioAdministrativo extends Secretario {
+    
+    public double getBonificacao() {
+        return this.salario * 0.1;
+    }    
     
 }
