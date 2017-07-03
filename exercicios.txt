@@ -1,0 +1,12 @@
+************************************************
+
+aula 02 - todos
+aula 03 - todos (Array modificado para ArrayList posteriormente)
+aula 04 - todos
+aula 05 - todos
+aula 06 - todos
+aula 07 - todos
+aula 08 - mudado Array de Contas na classe Banco para ArrayList, como proposto
+aula 09 - gerado UML (incluso no zip) do projeto inteiro
+
+************************************************
