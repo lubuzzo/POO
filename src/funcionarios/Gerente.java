@@ -9,7 +9,7 @@ package funcionarios;
  *
  * @author buzzo
  */
-public class Gerente extends Funcionario {
+public class Gerente extends FuncionarioAutenticavel implements Autenticavel {
     int Senha;
 
     public void setSenha(int Senha) {
@@ -18,15 +18,5 @@ public class Gerente extends Funcionario {
     
     public double getBonificacao() {
         return this.salario * 0.15;
-    }
-    
-    public boolean autentica(int senha) {
-        if (this.Senha == senha) {
-            System.out.println("Acesso permitido!");
-            return true;
-        } else {
-            System.out.println("Acesso negado!");
-            return false;
-        }
     }
 }

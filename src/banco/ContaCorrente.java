@@ -9,7 +9,7 @@ package banco;
  *
  * @author buzzo
  */
-public class ContaCorrente extends Conta {
+public class ContaCorrente extends Conta implements Tributavel {
     
     public ContaCorrente(Cliente novoCliente) {
         super(novoCliente);
@@ -27,6 +27,11 @@ public class ContaCorrente extends Conta {
             return true;
         } 
         return false;
+    }
+
+    @Override
+    public double calcularTributos() {
+        return this.getSaldo() * 0.01;
     }
 
 }
