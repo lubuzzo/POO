@@ -6,6 +6,8 @@
 
 package banco;
 
+import java.util.Random;
+
 /**
  *
  * @author sahudy
@@ -15,8 +17,30 @@ public class Conta {
     private double saldo;
     private double limite;
     public Cliente titular; // = new Cliente();
+
+    public String getTitular() {
+        return titular.getNome();
+    }
     
+    public double getLimite() {
+        return limite;
+    }
+
+    public void setLimite(double limite) {
+        this.limite = limite;
+    }
+    
+    private int generateNumber() {
+        Random r = new Random();
+        return (r.nextInt(10));
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
     public Conta(Cliente novoCliente) {
+        this.numero = generateNumber();
         this.titular = novoCliente;
     }
     
@@ -25,35 +49,42 @@ public class Conta {
         this.titular = novoCliente;
     }
     
+    protected void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+    
     public boolean saca (double valor) {
-        if ((this.saldo + this.limite) >= valor){
-            this.saldo-=valor;
+        if ((getSaldo() + getLimite()) >= valor){
+            setSaldo(getSaldo()- valor);
             return true;
-        } else return false;
+        } 
+        return false;
     }
     
     public boolean deposita (double valor) {
         if (valor > 0) {
-            this.saldo+=valor;
+            setSaldo(getSaldo() + valor);
             return true;
-        } else return false;
+        } 
+        return false;
     }
 
         
     public boolean transfere (Conta destino, double valor) {
-        if (this.saldo >= valor) {
+        if (getSaldo() >= valor) {
             destino.deposita(valor);
             this.saca(valor);
             return true;
-        } else return false;
+        } 
+        return false;
     }
     
     public double getSaldo() {
         return this.saldo;
     }
-    
-    public String getTitular() {
-        return this.titular.getNome();
-    }
 
+    public void atualizaTaxa (double taxa) {
+        setSaldo(getSaldo() * 1 + (taxa));
+    }
+    
 }

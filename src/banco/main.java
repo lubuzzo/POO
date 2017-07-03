@@ -33,21 +33,39 @@ public class main {
         
         
         for (int Count = 0; Count < qtdeContas; Count++) {
+            String tipoConta = "0";
+            do {
+            System.out.println("Deseja criar uma conta corrente ou poupança? (1 para CC, 2 para CP)");
+            tipoConta = reader.next();
+            } while (!(tipoConta.equals("1") || tipoConta.equals("2")));
+            
             System.out.println("Insira o nome do Cliente: ");
             String nomeCliente = reader.next();
-            Conta c1 = new Conta(new Cliente(nomeCliente));
+            
+            Conta c1 = null;
+            
+            if (tipoConta.equals("1")) {
+                c1 = new ContaCorrente(new Cliente(nomeCliente));
+            } else if (tipoConta.equals("2")) {
+                c1 = new ContaPoupanca(new Cliente(nomeCliente));
+            }
             
             System.out.println("Insira o saldo inicial para depositar: ");
             double saldoCliente = reader.nextDouble();
             c1.deposita(saldoCliente);
             
-            bancoCriado.inserirConta(c1);
+            if (tipoConta.equals("1")) c1.atualizaTaxa(0.01);
+            else if (tipoConta.equals("2")) c1.atualizaTaxa(0.01);
+            
+            if (!(bancoCriado.adicionarConta(c1))) {
+             System.out.println("Ocorreu um erro ao inserir a conta, talvez o array esteja cheio!");
+            }
+            
             System.out.println("\n");
         }
         
-        for (int Count = 0; Count < qtdeContas; Count++) {
-            System.out.println(bancoCriado.nomeBanco() + "["+Count+"] == Cliente: " + bancoCriado.contas[Count].titular.getNome() + " tem: R$ " + bancoCriado.contas[Count].getSaldo());
-        }
+        bancoCriado.mostrarContas();
+        
     }
     
 }

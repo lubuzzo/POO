@@ -24,9 +24,19 @@ public class Banco {
         this.contas = new Conta[Qtde];
     }
     
-    public void inserirConta(Conta novaConta) {
-        this.contas[this.Qtde] = novaConta;
-        this.Qtde++;
+    public boolean adicionarConta(Conta novaConta) {
+        if (contas.length > this.Qtde) {
+            this.contas[this.Qtde] = novaConta;
+            this.Qtde++;
+            return true;
+        }
+        return false;
+    }
+    
+    public void mostrarContas() {
+        int count = 0;
+        for (; count < this.Qtde; count++)
+            System.out.println(this.nomeBanco() + "["+count+"] == Cliente: " + this.contas[count].getTitular() + " tem: R$ " + this.contas[count].getSaldo());
     }
     
     public String nomeBanco() {
