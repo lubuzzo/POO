@@ -67,4 +67,23 @@ public class Banco {
         
         return retorno;
     }
+    
+    public Conta pegaConta(int idConta) {
+        int Count = 0;
+        for (; Count < this.contas.length; Count++) {
+            if (this.contas[Count].getNumero() == idConta) {
+                return this.contas[Count];
+            }
+        }
+        return null;
+    }
+    
+    public double pegaTotalDeContas() {
+        int Count = 0;
+        double Total = 0;
+        for (; Count < this.contas.length; Count++) {
+            Total+=this.contas[Count].getSaldo();
+        }
+        return Total;
+    }
 }

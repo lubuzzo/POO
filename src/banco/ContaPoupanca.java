@@ -15,8 +15,10 @@ public class ContaPoupanca extends Conta {
         super(novoCliente);
     }
     
-    public void atualizaTaxa (double taxa) {
-        setSaldo(getSaldo() * 1 + (2 * (taxa)));
+    @Override
+    public double atualizaTaxa (double taxa) {
+        setSaldo(getSaldo() * (1 + (2 * (taxa))));
+        return getSaldo();
     }
     
 }

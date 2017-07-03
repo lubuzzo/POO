@@ -15,8 +15,10 @@ public class ContaCorrente extends Conta {
         super(novoCliente);
     }
 
-    public void atualizaTaxa (double taxa) {
-        setSaldo(getSaldo() * 1 + (3 * (taxa)));
+    @Override
+    public double atualizaTaxa (double taxa) {
+        setSaldo(getSaldo() * (1 + (3 * (taxa))));
+        return getSaldo();
     }    
     
     public boolean deposita (double valor) {

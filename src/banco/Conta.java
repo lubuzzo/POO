@@ -83,8 +83,9 @@ public class Conta {
         return this.saldo;
     }
 
-    public void atualizaTaxa (double taxa) {
+    public double atualizaTaxa (double taxa) {
         setSaldo(getSaldo() * 1 + (taxa));
+        return getSaldo();
     }
     
 }

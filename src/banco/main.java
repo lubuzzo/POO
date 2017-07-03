@@ -29,8 +29,7 @@ public class main {
         int qtdeContas = reader.nextInt();
          
         banco.Banco bancoCriado = new banco.Banco(nomeBanco, qtdeContas);
- 
-        
+        AtualizadorDeContas adc = new AtualizadorDeContas(0.01);
         
         for (int Count = 0; Count < qtdeContas; Count++) {
             String tipoConta = "0";
@@ -50,15 +49,14 @@ public class main {
                 c1 = new ContaPoupanca(new Cliente(nomeCliente));
             }
             
-            System.out.println("Insira o saldo inicial para depositar: ");
-            double saldoCliente = reader.nextDouble();
-            c1.deposita(saldoCliente);
-            
-            if (tipoConta.equals("1")) c1.atualizaTaxa(0.01);
-            else if (tipoConta.equals("2")) c1.atualizaTaxa(0.01);
-            
             if (!(bancoCriado.adicionarConta(c1))) {
              System.out.println("Ocorreu um erro ao inserir a conta, talvez o array esteja cheio!");
+            } else {
+                System.out.println("Insira o saldo inicial para depositar: ");
+                double saldoCliente = reader.nextDouble();
+                c1.deposita(saldoCliente);
+
+                adc.roda(c1);                
             }
             
             System.out.println("\n");
@@ -66,6 +64,7 @@ public class main {
         
         bancoCriado.mostrarContas();
         
+        System.out.println("Saldo total do " + bancoCriado.nomeBanco() + " é: R$ " + adc.getSaldoTotal());
     }
     
 }
